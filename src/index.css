@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --app-background: radial-gradient(circle at 15% 20%, #dff3ff 0%, #f6f9fc 45%, #fff5e3 100%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Manrope", sans-serif;
+  color: #0f172a;
+}
+
+.bg-app {
+  background-image: var(--app-background);
+}
