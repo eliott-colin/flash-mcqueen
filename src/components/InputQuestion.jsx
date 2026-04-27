@@ -31,14 +31,16 @@ function InputQuestion({
         placeholder="Ecris ta reponse ici"
       />
 
-      <button
-        type="button"
-        onClick={() => onSubmit(value)}
-        disabled={normalized.length === 0 || disabled}
-        className="rounded-xl bg-amber-500 px-4 py-3 text-sm font-semibold text-slate-900 transition hover:bg-amber-400 disabled:cursor-not-allowed disabled:bg-amber-200"
-      >
-        Valider
-      </button>
+      <div className="flex justify-end">
+        <button
+          type="button"
+          onClick={() => onSubmit(value)}
+          disabled={normalized.length === 0 || disabled}
+          className="rounded-xl bg-amber-500 px-4 py-3 text-sm font-semibold text-slate-900 transition hover:bg-amber-400 disabled:cursor-not-allowed disabled:bg-amber-200"
+        >
+          Valider
+        </button>
+      </div>
 
       {revealCorrection && (
         <p className="text-sm text-slate-600">

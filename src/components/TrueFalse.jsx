@@ -52,14 +52,16 @@ function TrueFalse({
         })}
       </div>
 
-      <button
-        type="button"
-        onClick={() => onSubmit(selected)}
-        disabled={!isValidSelection || disabled}
-        className="mt-3 rounded-xl bg-amber-500 px-4 py-3 text-sm font-semibold text-slate-900 transition hover:bg-amber-400 disabled:cursor-not-allowed disabled:bg-amber-200"
-      >
-        Valider
-      </button>
+      <div className="flex justify-end">
+        <button
+          type="button"
+          onClick={() => onSubmit(selected)}
+          disabled={!isValidSelection || disabled}
+          className="mt-3 rounded-xl bg-amber-500 px-4 py-3 text-sm font-semibold text-slate-900 transition hover:bg-amber-400 disabled:cursor-not-allowed disabled:bg-amber-200"
+        >
+          Valider
+        </button>
+      </div>
     </section>
   );
 }
