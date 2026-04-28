@@ -111,7 +111,7 @@ function App() {
 
             <div className="mt-6 flex flex-wrap items-center justify-between gap-4">
               <p className="text-sm text-slate-600">
-                Tu peux changer de quiz à tout moment depuis le moteur.
+                Tu peux changer de quiz à tout moment depuis le menu.
               </p>
 
               <button
