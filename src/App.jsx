@@ -23,13 +23,22 @@ const QUIZZES = [
 function App() {
   const [selectedQuiz, setSelectedQuiz] = useState("overwatch");
   const [started, setStarted] = useState(false);
-  const isOverwatchQuiz = selectedQuiz === "overwatch";
-  const isOverwatchScreen = started && selectedQuiz === "overwatch";
-
   const selectedQuizData = useMemo(
-    () => QUIZZES.find((quiz) => quiz.key === selectedQuiz) || QUIZZES[0],
+    () => QUIZZES.find((quiz) => quiz.key === selectedQuiz) || null,
     [selectedQuiz]
   );
+  const isOverwatchQuiz = selectedQuiz === "overwatch";
+  const isOverwatchScreen = started && selectedQuiz === "overwatch";
+  const menuTitle = selectedQuizData
+    ? selectedQuizData.title === "Overwatch"
+      ? "Prépare-toi pour une mission Overwatch."
+      : `Prêt pour le quiz ${selectedQuizData.title} ?`
+    : "Sélectionne le type de quiz que tu souhaites faire !";
+  const menuSubtitle = selectedQuizData
+    ? selectedQuizData.title === "Overwatch"
+      ? "Lance un quiz inspiré de l'univers Overwatch."
+      : "Reviens au menu si tu veux changer de thème."
+    : "Choisis un quiz, puis démarre quand tu es prêt.";
 
   const launchQuiz = () => setStarted(true);
   const goBackToMenu = () => setStarted(false);
@@ -54,10 +63,10 @@ function App() {
             </span>
           </div>
           <h1 className="mt-4 max-w-3xl font-display text-4xl leading-tight sm:text-6xl">
-            Sélectionne le type de quiz que tu souhaites faire !
+            {menuTitle}
           </h1>
           <p className="mt-4 max-w-2xl text-sm text-slate-600 sm:text-base">
-            BLBLBLBLBLB
+            {menuSubtitle}
           </p>
         </header>
 
@@ -114,17 +123,31 @@ function App() {
                 Tu peux changer de quiz à tout moment depuis le menu.
               </p>
 
-              <button
-                type="button"
-                onClick={launchQuiz}
-                className={`rounded-full px-6 py-3 text-sm font-extrabold text-white shadow-lg transition hover:scale-[1.02] hover:shadow-xl ${
-                  isOverwatchQuiz
-                    ? "bg-gradient-to-r from-orange-500 via-amber-400 to-sky-500 text-slate-950"
-                    : "bg-slate-900"
-                }`}
-              >
-                Commencer {selectedQuizData.title}
-              </button>
+              <div className="flex flex-wrap gap-3">
+                <button
+                  type="button"
+                  onClick={() => setSelectedQuiz(null)}
+                  disabled={!selectedQuiz}
+                  className="rounded-full border border-slate-300 px-6 py-3 text-sm font-semibold text-slate-700 transition hover:bg-slate-50 disabled:cursor-not-allowed disabled:opacity-40"
+                >
+                  Revenir au menu
+                </button>
+
+                <button
+                  type="button"
+                  onClick={launchQuiz}
+                    disabled={!selectedQuizData}
+                  className={`rounded-full px-6 py-3 text-sm font-extrabold text-white shadow-lg transition hover:scale-[1.02] hover:shadow-xl ${
+                      !selectedQuizData
+                        ? "cursor-not-allowed bg-slate-300 text-slate-500 hover:scale-100 hover:shadow-lg"
+                        : isOverwatchQuiz
+                      ? "bg-gradient-to-r from-orange-500 via-amber-400 to-sky-500 text-slate-950"
+                      : "bg-slate-900"
+                  }`}
+                >
+                    {selectedQuizData ? `Commencer ${selectedQuizData.title}` : "Choisis un quiz"}
+                </button>
+              </div>
             </div>
           </div>
         ) : (
