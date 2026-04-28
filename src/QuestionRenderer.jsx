@@ -1,6 +1,6 @@
-import InputQuestion from "./components/InputQuestion";
-import MultipleChoice from "./components/MultipleChoice";
-import TrueFalse from "./components/TrueFalse";
+import InputQuestion from "./components/InputQuestion.jsx";
+import MultipleChoice from "./components/MultipleChoice.jsx";
+import TrueFalse from "./components/TrueFalse.jsx";
 
 const componentByType = {
   multiple_choice: MultipleChoice,

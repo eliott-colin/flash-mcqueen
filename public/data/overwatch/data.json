@@ -1,0 +1,166 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "question": "Quel est le vrai nom de Reaper ?",
+      "answers": [
+        { "text": "Jack Morrison", "correct": false },
+        { "text": "Gabriel Reyes", "correct": true },
+        { "text": "Antonio Bartalotti", "correct": false },
+        { "text": "Maximilien", "correct": false }
+      ],
+      "explanation": "Gabriel Reyes était le commandant de Blackwatch, la branche secrète d'Overwatch, avant de devenir Reaper après une altercation fatale avec Jack Morrison."
+    },
+    {
+      "id": 2,
+      "type": "multiple_choice",
+      "question": "Quelle organisation Widowmaker servait-elle avant d'être conditionée par Talon ?",
+      "answers": [
+        { "text": "Overwatch", "correct": true },
+        { "text": "Vishkar Corporation", "correct": false },
+        { "text": "La Légion de Null", "correct": false },
+        { "text": "Helix Security International", "correct": false }
+      ],
+      "explanation": "Amélie Lacroix était mariée à Gérard Lacroix, agent d'Overwatch. Talon l'a kidnappée, conditionnée et transformée en agent dormant pour éliminer son mari."
+    },
+    {
+      "id": 3,
+      "type": "true_false",
+      "question": "Winston est un gorille qui a grandi sur la base de recherche Horizon sur la Lune.",
+      "answers": [
+        { "text": "Vrai", "correct": true },
+        { "text": "Faux", "correct": false }
+      ],
+      "explanation": "Winston a grandi sur la base lunaire Horizon sous la tutelle du Dr Harold Winston, dont il a pris le nom. Il a rejoint Overwatch après s'être échappé suite à une rébellion des gorilles."
+    },
+    {
+      "id": 4,
+      "type": "multiple_choice",
+      "question": "Dans quelle ville Lucio a-t-il volé la technologie de Vishkar pour libérer son quartier ?",
+      "answers": [
+        { "text": "Lagos", "correct": false },
+        { "text": "Numbani", "correct": false },
+        { "text": "Rio de Janeiro", "correct": true },
+        { "text": "São Paulo", "correct": false }
+      ],
+      "explanation": "Lucio a grandi dans une favela de Rio de Janeiro sous le contrôle oppressif de la Vishkar Corporation. Il a volé leur technologie sonique pour libérer son peuple."
+    },
+    {
+      "id": 5,
+      "type": "true_false",
+      "question": "Soldier: 76 est le nom de code de Jack Morrison, l'ancien commandant en chef d'Overwatch.",
+      "answers": [
+        { "text": "Vrai", "correct": true },
+        { "text": "Faux", "correct": false }
+      ],
+      "explanation": "Jack Morrison était le commandant en chef d'Overwatch. Après la destruction du siège d'Overwatch et sa mort présumée, il est réapparu sous l'identité de Soldier: 76 pour mener sa propre guerre."
+    },
+    {
+      "id": 6,
+      "type": "multiple_choice",
+      "question": "Quel événement a conduit à la dissolution officielle d'Overwatch ?",
+      "answers": [
+        { "text": "L'invasion omnique de King's Row", "correct": false },
+        { "text": "L'explosion du siège d'Overwatch à Genève", "correct": true },
+        { "text": "La trahison de Moira au sein de Blackwatch", "correct": false },
+        { "text": "L'assassinat du Roi Jamison", "correct": false }
+      ],
+      "explanation": "Le siège d'Overwatch à Genève a été détruit dans une explosion mystérieuse. Cet événement, combiné aux scandales de Blackwatch, a conduit au vote des Accords Petras qui ont officiellement dissout Overwatch."
+    },
+    {
+      "id": 7,
+      "type": "input",
+      "question": "Comment s'appelle la grande IA omnique qui a déclenché la Crise Omnique ?",
+      "correctAnswer": "Null Sector",
+      "explanation": "Non, il s'agit de <a href='https://overwatch.fandom.com/wiki/Null_Sector'>Null Sector</a> (Omnium God Program), également appelé la Source. C'est cette IA qui a pris le contrôle des usines Omnium et déclenché la guerre contre l'humanité."
+    },
+    {
+      "id": 8,
+      "type": "multiple_choice",
+      "question": "De quel pays Pharah (Fareeha Amari) est-elle originaire ?",
+      "answers": [
+        { "text": "Maroc", "correct": false },
+        { "text": "Jordanie", "correct": false },
+        { "text": "Égypte", "correct": true },
+        { "text": "Tunisie", "correct": false }
+      ],
+      "explanation": "Fareeha Amari est égyptienne. Sa mère Ana était l'une des membres fondatrices d'Overwatch. Pharah travaille pour Helix Security International et protège le Musée égyptien du Caire."
+    },
+    {
+      "id": 9,
+      "type": "true_false",
+      "question": "Zenyatta est un moine omnique qui a choisi de vivre parmi les humains plutôt qu'au Monastère de Shambali.",
+      "answers": [
+        { "text": "Vrai", "correct": true },
+        { "text": "Faux", "correct": false }
+      ],
+      "explanation": "Zenyatta a quitté le Monastère de Shambali pour voyager parmi les humains et chercher la paix par la connexion directe avec les autres, contrairement à l'enseignement plus traditionnel de Mondatta."
+    },
+    {
+      "id": 10,
+      "type": "multiple_choice",
+      "question": "Quelle est la relation entre Genji et Hanzo Shimada ?",
+      "answers": [
+        { "text": "Ils sont cousins", "correct": false },
+        { "text": "Ils sont ennemis jurés sans lien de sang", "correct": false },
+        { "text": "Ce sont des frères", "correct": true },
+        { "text": "Hanzo est le maître de Genji", "correct": false }
+      ],
+      "explanation": "Genji et Hanzo sont les fils du clan Shimada. Hanzo a failli tuer Genji sur ordre du clan, convaincu de sa mort. Genji fut sauvé par Overwatch et cybernétisé par Mercy."
+    },
+    {
+      "id": 11,
+      "type": "multiple_choice",
+      "question": "Quel personnage est connu pour avoir créé les Valkyrie suits utilisées par les soldats de Suède ?",
+      "answers": [
+        { "text": "Torbjörn Lindholm", "correct": true },
+        { "text": "Brigitte Lindholm", "correct": false },
+        { "text": "Bastion", "correct": false },
+        { "text": "Reinhardt", "correct": false }
+      ],
+      "explanation": "Torbjörn est l'ingénieur en armement le plus réputé de sa génération. Il a conçu de nombreuses technologies militaires, bien qu'il soit profondément méfiant des omniques."
+    },
+    {
+      "id": 12,
+      "type": "true_false",
+      "question": "Moira O'Deorain a été renvoyée d'Overwatch en raison de ses recherches génétiques jugées contraires à l'éthique.",
+      "answers": [
+        { "text": "Vrai", "correct": true },
+        { "text": "Faux", "correct": false }
+      ],
+      "explanation": "Moira était une brillante scientifique dont les expériences radicales sur la biogénétique ont été condamnées par la communauté scientifique et Overwatch. Elle a rejoint Talon pour poursuivre ses recherches sans contrainte éthique."
+    },
+    {
+      "id": 13,
+      "type": "input",
+      "question": "Quel est le vrai prénom de Tracer ?",
+      "correctAnswer": "Lena",
+      "explanation": "Lena Oxton, alias Tracer, était une pilote de chasse prodige qui est devenue le symbole d'Overwatch. Son voyage dans le slipstream l'a rendue incapable de maintenir sa forme physique, problème résolu par le chrono-accélérateur."
+    },
+    {
+      "id": 14,
+      "type": "multiple_choice",
+      "question": "Qui a fondé l'organisation Talon ?",
+      "answers": [
+        { "text": "Reaper", "correct": false },
+        { "text": "Doomfist (Akande Ogundimu)", "correct": false },
+        { "text": "Les origines exactes de Talon restent floues dans le lore", "correct": true },
+        { "text": "Widowmaker", "correct": false }
+      ],
+      "explanation": "Les origines de Talon ne sont pas clairement établies dans le lore officiel. On sait qu'il s'agit d'une organisation terroriste cherchant à plonger le monde dans un nouveau conflit, convaincue que la guerre fait progresser l'humanité."
+    },
+    {
+      "id": 15,
+      "type": "multiple_choice",
+      "question": "Quelle est la capacité unique de Symmetra qui est liée à son passé avec Vishkar ?",
+      "answers": [
+        { "text": "Elle peut voyager dans le temps", "correct": false },
+        { "text": "Elle est une architecte de réalité utilisant la lumière dure", "correct": true },
+        { "text": "Elle contrôle des nanobots", "correct": false },
+        { "text": "Elle a des capacités télépathiques", "correct": false }
+      ],
+      "explanation": "Satya Vaswami (Symmetra) est une architecte de réalité formée par Vishkar. Elle manipule la lumière dure pour créer des constructions physiques. Elle est également autiste, ce qui lui donne une perception unique de l'ordre et du chaos."
+    }
+  ]
+}

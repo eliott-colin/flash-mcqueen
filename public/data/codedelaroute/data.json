@@ -1,0 +1,32 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "question": "Que signifie un panneau triangulaire a bord rouge ?",
+      "answers": [
+        { "text": "Une obligation", "correct": false },
+        { "text": "Un danger ou une alerte", "correct": true },
+        { "text": "Une interdiction de stationner", "correct": false }
+      ],
+      "explanation": "Les panneaux triangulaires annoncent un danger et invitent a redoubler d'attention."
+    },
+    {
+      "id": 2,
+      "type": "true_false",
+      "question": "Le clignotant doit etre mis avant de changer de direction.",
+      "answers": [
+        { "text": "Vrai", "correct": true },
+        { "text": "Faux", "correct": false }
+      ],
+      "explanation": "Il faut signaler son intention avant tout changement de direction ou de voie."
+    },
+    {
+      "id": 3,
+      "type": "input",
+      "question": "Quelle est la vitesse maximale en ville en France ?",
+      "correctAnswer": "50",
+      "explanation": "La vitesse maximale est generalement de 50 km/h en agglomeration, sauf signalisation contraire."
+    }
+  ]
+}

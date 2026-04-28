@@ -4,6 +4,10 @@
 
 :root {
   --app-background: radial-gradient(circle at 15% 20%, #dff3ff 0%, #f6f9fc 45%, #fff5e3 100%);
+  --overwatch-background:
+    radial-gradient(circle at 12% 18%, rgba(56, 189, 248, 0.22) 0%, rgba(56, 189, 248, 0) 38%),
+    radial-gradient(circle at 88% 12%, rgba(249, 115, 22, 0.2) 0%, rgba(249, 115, 22, 0) 34%),
+    linear-gradient(180deg, #07111f 0%, #0f172a 35%, #172554 100%);
 }
 
 * {
@@ -14,8 +18,20 @@ body {
   margin: 0;
   font-family: "Manrope", sans-serif;
   color: #0f172a;
+  background: #f6f9fc;
 }
 
 .bg-app {
   background-image: var(--app-background);
+  background-attachment: fixed;
+}
+
+.bg-overwatch {
+  background-image: var(--overwatch-background);
+  background-attachment: fixed;
+}
+
+::selection {
+  background: rgba(251, 191, 36, 0.35);
+  color: #fff;
 }
