@@ -1,0 +1,166 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "question": "Sur chaussée mouillée, la distance de freinage d'une moto par rapport à une route sèche est :",
+      "answers": [
+        { "text": "Identique, l'ABS compense", "correct": false },
+        { "text": "Légèrement plus longue (10 à 20 %)", "correct": false },
+        { "text": "Significativement plus longue (peut doubler ou tripler)", "correct": true },
+        { "text": "Plus courte grâce à l'adhérence des pneus mouillés", "correct": false }
+      ],
+      "explanation": "Sur sol mouillé, l'adhérence est fortement réduite. La distance de freinage peut être deux à trois fois plus longue qu'à sec. Il faut donc anticipater bien plus tôt et réduire sa vitesse dès les premières gouttes de pluie."
+    },
+    {
+      "id": 2,
+      "type": "true_false",
+      "question": "Les feux de croisement sont obligatoires pour les motos, de jour comme de nuit.",
+      "answers": [
+        { "text": "Vrai", "correct": true },
+        { "text": "Faux", "correct": false }
+      ],
+      "explanation": "Contrairement aux voitures, les deux-roues motorisés ont l'obligation légale (article R416-17 du Code de la route) de circuler feux de croisement allumés en permanence, y compris en pleine journée, afin d'améliorer leur visibilité auprès des autres usagers."
+    },
+    {
+      "id": 3,
+      "type": "multiple_choice",
+      "question": "Quel est le taux d'alcoolémie maximal autorisé pour un conducteur de moto titulaire du permis A depuis plus de 2 ans ?",
+      "answers": [
+        { "text": "0,2 g/L de sang", "correct": false },
+        { "text": "0,5 g/L de sang", "correct": true },
+        { "text": "0,8 g/L de sang", "correct": false },
+        { "text": "0 g/L de sang (tolérance zéro)", "correct": false }
+      ],
+      "explanation": "Le taux légal est de 0,5 g/L de sang (ou 0,25 mg/L d'air expiré) pour les conducteurs expérimentés. Pour les conducteurs en période probatoire (moins de 2 ans de permis), le seuil est abaissé à 0,2 g/L. L'alcool diminue les réflexes, le champ visuel et augmente le sentiment illusoire de maîtrise."
+    },
+    {
+      "id": 4,
+      "type": "multiple_choice",
+      "question": "Quelle est la trajectoire de sécurité recommandée pour aborder un virage à droite ?",
+      "answers": [
+        { "text": "Se positionner à droite, serrer le virage et ressortir au centre", "correct": false },
+        { "text": "Se positionner à gauche avant le virage, couper l'apex et ressortir à droite", "correct": false },
+        { "text": "Se positionner à gauche avant le virage, passer large à l'apex et ressortir progressivement", "correct": true },
+        { "text": "Rester au centre de la voie tout au long du virage", "correct": false }
+      ],
+      "explanation": "La trajectoire de sécurité consiste à s'éloigner du sens de courbure avant le virage (ici, se mettre à gauche), retarder le point de corde (apex) pour avoir une meilleure visibilité et ressortir progressivement. Couper le virage est dangereux car cela réduit la visibilité et empiète sur la voie opposée."
+    },
+    {
+      "id": 5,
+      "type": "true_false",
+      "question": "Le contre-braquage consiste à tourner légèrement le guidon dans le sens opposé à la direction souhaitée pour initier un virage.",
+      "answers": [
+        { "text": "Vrai", "correct": true },
+        { "text": "Faux", "correct": false }
+      ],
+      "explanation": "Le contre-braquage (ou contre-direction) est la technique naturelle utilisée à partir d'une certaine vitesse (environ 30 km/h). Pour tourner à droite, on pousse légèrement sur le guidon droit, ce qui oriente la roue à gauche et provoque l'inclinaison de la moto vers la droite. Cette technique est fondamentale pour la maîtrise d'une moto."
+    },
+    {
+      "id": 6,
+      "type": "multiple_choice",
+      "question": "Parmi les équipements suivants, lequel est obligatoire pour circuler à moto sur la voie publique en France ?",
+      "answers": [
+        { "text": "Le gilet airbag", "correct": false },
+        { "text": "Le casque homologué", "correct": true },
+        { "text": "Les gants certifiés CE", "correct": false },
+        { "text": "Le blouson avec protections", "correct": false }
+      ],
+      "explanation": "Seul le casque homologué est légalement obligatoire pour circuler à moto. Les gants certifiés CE sont obligatoires depuis novembre 2016. Le gilet airbag et le blouson avec protections sont fortement recommandés mais pas imposés par la loi. Le port de l'équipement complet (ATGATT) reste la meilleure protection en cas de chute."
+    },
+    {
+      "id": 7,
+      "type": "input",
+      "question": "À partir de quelle vitesse approximative le contre-braquage devient-il la technique naturelle pour tourner à moto ?",
+      "correctAnswer": "30",
+      "explanation": "Le contre-braquage s'impose naturellement à partir d'environ 30 km/h. En dessous de cette vitesse (manœuvres lentes, parking), on guide la moto en tournant le guidon dans le sens du virage. Au-dessus, c'est l'effet gyroscopique des roues qui impose le contre-braquage comme seule technique efficace."
+    },
+    {
+      "id": 8,
+      "type": "multiple_choice",
+      "question": "Qu'est-ce que la 'conspicuité' pour un motard ?",
+      "answers": [
+        { "text": "La capacité à freiner rapidement en urgence", "correct": false },
+        { "text": "Le fait d'être visible par les autres usagers de la route", "correct": true },
+        { "text": "La maîtrise du contre-braquage en virage", "correct": false },
+        { "text": "La résistance du casque aux chocs", "correct": false }
+      ],
+      "explanation": "La conspicuité désigne la visibilité du motard aux yeux des autres usagers. Les motos sont souvent victimes d'accidents car elles sont difficiles à voir (angle mort, profil étroit). Pour améliorer sa conspicuité : porter des vêtements clairs ou fluorescents, allumer ses feux, se positionner de manière à être visible dans les rétroviseurs des autres véhicules."
+    },
+    {
+      "id": 9,
+      "type": "true_false",
+      "question": "La circulation inter-files (entre deux files de véhicules à l'arrêt ou en très lente circulation) est légalement autorisée pour les motos en France.",
+      "answers": [
+        { "text": "Vrai", "correct": false },
+        { "text": "Faux", "correct": true }
+      ],
+      "explanation": "La circulation inter-files n'est pas légalement autorisée en France — elle est tolérée dans le cadre d'une expérimentation reconduite depuis 2016, uniquement sur certaines voies et dans des conditions strictes (vitesse max 50 km/h, écart max 30 km/h avec le trafic). Ce n'est pas un droit acquis, et elle peut être interdite selon les préfectures."
+    },
+    {
+      "id": 10,
+      "type": "multiple_choice",
+      "question": "Quel effet a la fatigue sur la conduite d'une moto ?",
+      "answers": [
+        { "text": "Elle n'affecte que la vigilance, pas les réflexes", "correct": false },
+        { "text": "Elle allonge le temps de réaction, réduit la vigilance et peut provoquer des microsomnies", "correct": true },
+        { "text": "Ses effets sont compensés par l'air frais à moto", "correct": false },
+        { "text": "Elle affecte uniquement les conducteurs de plus de 50 ans", "correct": false }
+      ],
+      "explanation": "La fatigue est un facteur majeur d'accident à moto. Elle allonge le temps de réaction, détériore la prise d'information visuelle, réduit la vigilance et peut provoquer des microsomnies (endormissements de quelques secondes). Conduire fatigué est aussi dangereux que conduire sous l'emprise de l'alcool. Il faut faire une pause toutes les 2 heures."
+    },
+    {
+      "id": 11,
+      "type": "multiple_choice",
+      "question": "Que doit-on vérifier en priorité sur les pneumatiques d'une moto avant de partir ?",
+      "answers": [
+        { "text": "La couleur du pneu et la marque", "correct": false },
+        { "text": "La pression et la profondeur des sculptures (indicateur d'usure)", "correct": true },
+        { "text": "Uniquement la pression du pneu arrière", "correct": false },
+        { "text": "La date de fabrication du pneu uniquement", "correct": false }
+      ],
+      "explanation": "La pression et l'état des sculptures sont les deux vérifications essentielles. Un pneu sous-gonflé chauffe excessivement, augmente la consommation et dégrade l'adhérence. La profondeur légale minimale des sculptures est de 1,6 mm, mais on recommande de remplacer les pneus à 2 mm. Un pneu usé ou mal gonflé est dangereux, surtout par temps de pluie."
+    },
+    {
+      "id": 12,
+      "type": "true_false",
+      "question": "En cas d'accident avec des blessés, le premier geste est de déplacer la victime pour la mettre à l'abri.",
+      "answers": [
+        { "text": "Vrai", "correct": false },
+        { "text": "Faux", "correct": true }
+      ],
+      "explanation": "On ne déplace JAMAIS une victime d'accident sauf en cas de danger immédiat et vital (incendie, risque de noyade...). Un déplacement intempestif peut aggraver une lésion de la colonne vertébrale et provoquer la paralysie. Les bons gestes sont : sécuriser la zone, alerter les secours (15 ou 112), ne pas retirer le casque, réconforter la victime et attendre les secours."
+    },
+    {
+      "id": 13,
+      "type": "multiple_choice",
+      "question": "Quelle est la vitesse maximale autorisée sur autoroute pour un conducteur en permis probatoire (A2) ?",
+      "answers": [
+        { "text": "110 km/h", "correct": false },
+        { "text": "130 km/h", "correct": true },
+        { "text": "100 km/h", "correct": false },
+        { "text": "120 km/h", "correct": false }
+      ],
+      "explanation": "La limitation de vitesse sur autoroute est de 130 km/h pour tous les conducteurs de moto, y compris ceux en période probatoire. En revanche, pour le permis A2, c'est la puissance de la moto qui est restreinte (max 35 kW / 47 ch), pas la vitesse maximale légale. Par temps de pluie, la limitation est abaissée à 110 km/h pour tous."
+    },
+    {
+      "id": 14,
+      "type": "multiple_choice",
+      "question": "Sur quels revêtements l'adhérence est-elle particulièrement réduite pour une moto ?",
+      "answers": [
+        { "text": "L'asphalte sec uniquement", "correct": false },
+        { "text": "Les plaques d'égout, les marquages au sol, les feuilles mortes et le gravier", "correct": true },
+        { "text": "Uniquement la neige et le verglas", "correct": false },
+        { "text": "Les routes en béton", "correct": false }
+      ],
+      "explanation": "De nombreux revêtements réduisent l'adhérence d'une moto : plaques d'égout (métal lisse), bandes et marquages peints au sol (très glissants mouillés), feuilles mortes, graviers épars, gasoil renversé, et bien sûr neige/verglas. Le motard doit identifier ces zones en amont pour adapter sa trajectoire et sa vitesse."
+    },
+    {
+      "id": 15,
+      "type": "input",
+      "question": "Combien de questions comporte l'Épreuve Théorique Motocyclette (ETM) et combien de bonnes réponses faut-il pour réussir ?",
+      "correctAnswer": "40 questions, 35 bonnes réponses",
+      "explanation": "L'ETM comprend 40 questions à choix multiple, avec un seuil de réussite fixé à 35/40 (87,5 %). L'épreuve dure 30 minutes et se déroule dans un centre d'examen agréé sur tablette ou ordinateur. Elle est obligatoire depuis le 1er mars 2020 pour l'obtention de tous les permis moto (A, A1, A2), même pour les titulaires du permis B."
+    }
+  ]
+}

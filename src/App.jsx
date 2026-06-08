@@ -11,9 +11,9 @@ const QUIZZES = [
     ring: "ring-orange-400/40"
   },
   {
-    key: "codedelaroute",
-    title: "Code de la route",
-    description: "Questions de panneaux, priorités et règles de conduite.",
+    key: "code-moto",
+    title: "Code de la route moto",
+    description: "Questions pour le passage du code moto",
     accent: "from-amber-500 to-orange-500",
     badge: "Permis & panneaux",
     ring: "ring-amber-400/40"
