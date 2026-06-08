@@ -92,15 +92,15 @@ function QuizEngine({ quizKey: requestedQuizKey, onBackToMenu }) {
           throw new Error("Aucun quiz n'a été sélectionné");
         }
 
-        const quizResponse = await fetch(`/data/${quizToLoad}/data.json`);
+        const modules = import.meta.glob('/data/**/data.json');
+        const importPath = `/data/${quizToLoad}/data.json`;
 
-        if (!quizResponse.ok) {
-          throw new Error(
-            `Impossible de lire /data/${quizToLoad}/data.json (${quizResponse.status})`
-          );
+        if (!modules[importPath]) {
+          throw new Error(`Impossible de lire ${importPath} (fichier introuvable)`);
         }
 
-        const quizData = await quizResponse.json();
+        const mod = await modules[importPath]();
+        const quizData = mod?.default ?? mod;
         const loadedQuestions = Array.isArray(quizData?.questions) ? quizData.questions : [];
 
         if (!isCancelled) {
@@ -172,8 +172,8 @@ function QuizEngine({ quizKey: requestedQuizKey, onBackToMenu }) {
       <article className={shellClassName}>
         <h2 className="font-display text-2xl text-orange-300">Impossible de charger le quiz</h2>
         <p className="mt-2 text-slate-200">{loadError}</p>
-        <p className="mt-2 text-slate-300">
-          Vérifie le fichier `public/data/{quizKey || "..."}/data.json`.
+          <p className="mt-2 text-slate-300">
+          Vérifie le fichier `data/{quizKey || "..."}/data.json`.
         </p>
         {onBackToMenu && (
           <button
@@ -193,7 +193,7 @@ function QuizEngine({ quizKey: requestedQuizKey, onBackToMenu }) {
       <article className={shellClassName}>
         <h2 className={`font-display text-2xl ${titleTextClassName}`}>Aucune question trouvee</h2>
         <p className={`mt-2 ${mutedTextClassName}`}>
-          Ajoute des entrees dans `public/data/{quizKey || "<quiz>"}/data.json` pour lancer le quiz.
+          Ajoute des entrees dans `data/{quizKey || "<quiz>"}/data.json` pour lancer le quiz.
         </p>
         {onBackToMenu && (
           <button
