@@ -31,7 +31,7 @@ function App() {
   const isOverwatchScreen = started && selectedQuiz === "overwatch";
   const menuTitle = selectedQuizData
     ? selectedQuizData.title === "Overwatch"
-      ? "Prépare-toi pour une mission Overwatch."
+      ? "Quiz Overwatch."
       : `Prêt pour le quiz ${selectedQuizData.title} ?`
     : "Sélectionne le type de quiz que tu souhaites faire !";
   const menuSubtitle = selectedQuizData
@@ -55,9 +55,6 @@ function App() {
       <section className="mx-auto max-w-4xl">
         <header className="mb-8 rounded-[2rem] border border-slate-200 bg-white/85 p-6 text-slate-900 shadow-[0_20px_80px_rgba(15,23,42,0.12)] backdrop-blur-xl sm:p-8">
           <div className="flex flex-wrap items-center gap-3">
-            <span className="rounded-full border border-orange-400/30 bg-orange-500/10 px-3 py-1 text-[0.7rem] font-bold uppercase tracking-[0.24em] text-orange-700">
-              Overwatch style
-            </span>
             <span className="rounded-full border border-sky-400/30 bg-sky-500/10 px-3 py-1 text-[0.7rem] font-bold uppercase tracking-[0.24em] text-sky-700">
               Quiz dynamique
             </span>
